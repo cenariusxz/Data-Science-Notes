@@ -1,0 +1,6 @@
+conda create -n DSN python=3.7
+conda activate DSN
+python get-pip.py
+pip3 install torch torchvision
+pip3 install jupyter notebook
+pip3 install matplotlib
